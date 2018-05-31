@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EACN,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,EAAE;EAEb,SAAE;IACA,SAAS,EAAE,KAAK;IAChB,KAAK,EAAE,KAAK;IACZ,eAAe,EAAE,IAAI;IACrB,aAAa,EAAE,IAAI",
+"sources": ["../scss/navBar&FooterStyle.scss"],
+"names": [],
+"file": "navBar&FooterStyle.css"
+}
