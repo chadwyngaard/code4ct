@@ -1,11 +1,37 @@
-#navbar {
-  width: 100%;
-  margin-top: 7%;
-
-   a {
-     font-size: 1.5em;
-     color: black;
-     text-decoration: none;
-     padding-right: 10px;
-   }
+header {
+    #navbar {
+      margin-top: 3%;
+       a {
+         font-size: 2em; //increases font size
+         color: #191919; //black
+         text-decoration: none; //removes default hyperlink decoration
+          &:hover {
+            color: #EE534F; //red-orange
+          }
+       }
+         #search-bar {
+           width: 20%;
+           margin-top: 2%;
+           margin-right: 70%;
+           transform: scale(2);
+             #search-input{ //input text-bar
+               width: 45%;
+               border-style: none;
+             }
+             
+             button{
+               width: 25%; //sets the parameter for button width
+               background-color: #F9F9F9;
+               border-style: none;
+                 &:hover {
+                   background-color: #EE534F; //red-orange
+                 }
+                   .search-icon {
+                     width: 5%; //shrinks the icon original dimension to the desired dimension
+                     transform: scale(6); //enlarges the icon
+                     margin-bottom: 5%;
+                   }
+             }
+         }
+    }
 }

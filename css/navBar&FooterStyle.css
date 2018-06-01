@@ -1,10 +1,28 @@
-#navbar {
-  width: 100%;
-  margin-top: 7%; }
-  #navbar a {
-    font-size: 1.5em;
-    color: black;
-    text-decoration: none;
-    padding-right: 10px; }
+header #navbar {
+  margin-top: 3%; }
+  header #navbar a {
+    font-size: 2em;
+    color: #191919;
+    text-decoration: none; }
+    header #navbar a:hover {
+      color: #EE534F; }
+  header #navbar #search-bar {
+    width: 20%;
+    margin-top: 2%;
+    margin-right: 70%;
+    transform: scale(2); }
+    header #navbar #search-bar #search-input {
+      width: 45%;
+      border-style: none; }
+    header #navbar #search-bar button {
+      width: 25%;
+      background-color: #F9F9F9;
+      border-style: none; }
+      header #navbar #search-bar button:hover {
+        background-color: #EE534F; }
+      header #navbar #search-bar button .search-icon {
+        width: 5%;
+        transform: scale(6);
+        margin-bottom: 5%; }
 
 /*# sourceMappingURL=navBar&FooterStyle.css.map */
