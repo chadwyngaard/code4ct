@@ -7,20 +7,38 @@
     grid-column-start: 1;
     grid-column-end: 11;
     grid-row-start: 1;
-    grid-row-end: 7;
-    border: 2px solid black;
+    grid-row-end: 13;
     background-image: url("../images/slider-image1.jpg");
     background-size: cover;
     background-position: center;
-    animation: fade 20s infinite; }
+    animation: fade 25s infinite;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: -2px; }
 @keyframes fade {
   50% {
     background-image: url("../images/slider-image2.png");
     background-size: cover;
     background-position: center; }
   50% {
-    background-image: url("../images/slider-image3jpg");
+    background-image: url("../images/slider-image3.jpg");
     background-size: cover;
     background-position: center; } }
+  #slider-gallery #welcome-information {
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 11;
+    border: 1px solid black;
+    background-color: rgba(238, 83, 79, 0.8); }
+    #slider-gallery #welcome-information p {
+      color: white;
+      font-size: 0.97em;
+      text-align: center;
+      font-family: 'PT Sans', sans-serif;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 5px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,9 +3,14 @@ header #navbar {
   header #navbar a {
     font-size: 2em;
     color: #191919;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif; }
     header #navbar a:hover {
-      color: #EE534F; }
+      color: #F9F9F9; }
+  header #navbar .nav-box {
+    border-bottom: 0.8px solid #191919; }
+    header #navbar .nav-box:hover {
+      background-color: rgba(238, 83, 79, 0.8); }
   header #navbar #search-bar {
     width: 20%;
     margin-top: 2%;

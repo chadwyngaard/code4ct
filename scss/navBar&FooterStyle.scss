@@ -5,10 +5,19 @@ header {
          font-size: 2em; //increases font size
          color: #191919; //black
          text-decoration: none; //removes default hyperlink decoration
+         // font-family: 'Montserrat', sans-serif;
+         font-family: 'PT Sans', sans-serif;
           &:hover {
-            color: #EE534F; //red-orange
+            color: #F9F9F9; // snow white
           }
-       }
+
+      }
+      .nav-box {
+        border-bottom: 0.8px solid #191919;
+          &:hover {
+            background-color: rgba(#EE534F, 0.8); // opacified red-orange
+          }
+      }
          #search-bar {
            width: 20%;
            margin-top: 2%;
@@ -18,10 +27,10 @@ header {
                width: 45%;
                border-style: none;
              }
-             
+
              button{
                width: 25%; //sets the parameter for button width
-               background-color: #F9F9F9;
+               background-color: #F9F9F9; //snow white
                border-style: none;
                  &:hover {
                    background-color: #EE534F; //red-orange
